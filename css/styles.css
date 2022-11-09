@@ -352,7 +352,8 @@ body {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px
+    gap: 30px;
+    margin-bottom: 94px;
 }
 
 .portfolio-box {
