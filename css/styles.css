@@ -131,8 +131,7 @@ body {
 /* Main Studio */
 .hero {
     padding-top: 200px;
-    padding-bottom: 280px;
-    margin-bottom: 94px;
+    padding-bottom: 200px;
 
     background-color: var(--accent-bcg-color);
     text-align: center;
@@ -179,10 +178,14 @@ body {
 
 /*Our advantages */
 
+.our-advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .advantages-list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 94px;
 }
 
 .advantages-list .item {
@@ -212,10 +215,11 @@ body {
 }
 
 /* We do */
+
 .we-do .list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    padding-bottom: 94px;
 }
 
 .we-do-title,
@@ -314,8 +318,12 @@ body {
 
 /* Filter */
 
+.section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .filter-list {
-    margin-top: 94px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -353,7 +361,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 94px;
 }
 
 .portfolio-box {
