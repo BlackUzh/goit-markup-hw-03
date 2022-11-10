@@ -216,10 +216,13 @@ body {
 
 /* We do */
 
+.we-do {
+    padding-bottom: 94px;
+}
+
 .we-do .list {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
 }
 
 .we-do-title,
