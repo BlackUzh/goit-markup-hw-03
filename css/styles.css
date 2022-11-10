@@ -74,6 +74,10 @@ body {
     align-items: center;
 }
 
+.list-nav .link.current {
+    color: var(--secondary-accent-color);
+}
+
 .list-nav {
     display: flex;
     margin-left: 93px;
